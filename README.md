@@ -1,2 +1,2 @@
 # ITSEC2023
-Kurz ITSEC 
+Tu sa budu objavovat ucebne texty naseho kurzu
