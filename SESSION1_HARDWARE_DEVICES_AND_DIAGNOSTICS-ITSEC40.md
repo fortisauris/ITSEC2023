@@ -51,7 +51,6 @@ Výkon procesora nám určuje aj frekvencia na akou dokáže vykonávať svoju p
 
 2023 Intel Core i9-13900K  - max 6GHz
 
-
 Tranzistor dokaze ukladat iba najmensiu digitalnu jednotku a to je 1 alebo 0 t.j. bit
 
 >[!todo]
@@ -341,14 +340,22 @@ Demonštrácia hashovacie algoritmu pomocou python3
 
 >[!info]
 >Python si nainštalujte z Microsoft Store a program spustíte zo súboru pomenovaného hash_it.py
->pomocou príkazu v POWERSHELLI:
->python.exe hash_it.py
 
-Na Linuxe 
+
+pomocou príkazu v POWERSHELLI:
+``` Powershell
+python.exe hash_it.py
+```
+
+Na Linuxe alebo Macu
 ``` bash
 python3 hash_it.py
 ```
 
+>[! info]
+>K Pythonu budete potrebovať nejaký editor v ktorom môžete písať a editovať kód: Sublime Text 4, VSCode, Pycharm Community. 
+>
+>VŠETKY TRI SÚ ZADARMO
 
 
 

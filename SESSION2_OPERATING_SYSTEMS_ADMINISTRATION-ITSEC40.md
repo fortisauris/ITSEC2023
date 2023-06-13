@@ -178,20 +178,21 @@ md5sum SUBOR
 >HACKER - JA MAM MORE CASU
 
 
+>[! warning] TOOLBOX>KALI LINUX : johntheripper - tradicny password cracker
 
-
-johntheripper - tradicny password cracker
 
 ``` bash
+john --format=raw-md5 pwd.txt
+
 john --incremental=ASCII --format=raw-md5 pwd.txt
 cat .john/john.pot
 ```
-POZNAMKA: Vyhodou je automaticka detekcia formatu a kodovania
+POZNAMKA: Vyhodou johna je automaticka detekcia formatu a kodovania
 
-hashcat - password cracker s vyuzitim vykonu jadier Grafickych kariet 
+>[! warning] TOOLBOX>KALI LINUX : hashcat - password cracker s vyuzitim automatickeho vykonu jadier Grafickych kariet 
 
 ``` bash
-hashcat -b
+hashcat -b. # benchmark pocitaca
 hashcat -m 0 -a 3 --show md5.txt
 hashcat -m 0 -a 3 --show md5.txt ?l?d ?1?1?1?1?1
 hashcat -m 0 -a 0 --show md5.txt /usr/share/wordlists/rockyou.txt
@@ -199,10 +200,18 @@ hashcat -m 0 -a 0 --show md5.txt /usr/share/wordlists/rockyou.txt
 cat /local/share/hashcat/hashcat.potfile
 ```
 
-hydra - Slovnikovy utok priamo  priamo na REMOTE SERVER
+>[!info] TOOLBOX>KALI LINUX : rockyou.txt je dlhy wordlist v adresari [/usr/share/wordlists/]. Je standardne kompressovany v archive .gz
+>
 
 ``` bash
-hydra -L users.txt -P /usr/share/wordlists/rockyou.txt 10.10.137.76 ssh
+cd /usr/share/wordlist/
+sudo gzip -d rockyou.txt.gz
+```
+
+>[! warning] TOOLBOX>KALI LINUX : hydra - Slovnikovy utok priamo  priamo na REMOTE SERVER
+
+``` bash
+hydra -L users.txt -P /usr/share/wordlists/rockyou.txt IP ssh
 ```
 
 ### RAINBOW TABLES
