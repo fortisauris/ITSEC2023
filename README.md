@@ -13,7 +13,9 @@ sudo apt-get install python3
 
 3. Najlepsie LIVE distribucia Linuxu: https://www.kali.org/get-kali/#kali-platforms
 
-POZOR!!! Po inštalácii KALI do VMka, alebo po spusteni z USB kľúča si vždy zmeň heslo príkazom:
+
+[!warning] POZOR!!! Po inštalácii KALI do VMka, alebo po spusteni z USB kľúča si vždy zmeň heslo príkazom:
+
 ```bash
 passwd
 ```
