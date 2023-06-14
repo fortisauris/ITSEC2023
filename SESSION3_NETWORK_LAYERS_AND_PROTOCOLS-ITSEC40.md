@@ -67,7 +67,7 @@ sudo ifconfig eth0 promisc
 max 255.255.255.255 32bit dokopy 4.3 miliardy adries teoreticky
 mnozstvo adries je rezervovana pre privatne siete a multicast
 
-max ffffff.ffffff.ffffff.ffffff.ffffff.ffffff d 128bit dokopy
+max ffff.ffff.ffff.ffff.ffff.ffff.ffff.ffff d 128bit dokopy
 
 ``` bash
 ping 8.8.8.8
@@ -433,8 +433,8 @@ New-PSDrive -Name 'X' -PSProvider 'Filesystem' -Root '\\server\share' -Credentia
 ### 8. ZAKLADNA SEGMENTACIA SIETE
 
 8.1 Chránená LAN - interna siet s danym stupnom ochrany
+Intranet, databazove servery, pocitace obsahujuce citlive data.
 
 
-
-8.2 DMZ - demilitarizovana zona
+8.2 DMZ - demilitarizovana zona - miesto kde su umiestnene servery volne pristupne z internetu
 
