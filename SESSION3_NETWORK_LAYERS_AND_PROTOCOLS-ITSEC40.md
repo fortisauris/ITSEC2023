@@ -203,15 +203,15 @@ X.225 alebISO 8327
 
 PROTOKOLY, KTORE VYUZIVAJU TUTO VRSTVU:
 
-RPC Remote Procedure Call
-SQL Structured Query Languague
-SOCKS Proxy
-SCP Session Control Protocol
-RTPC Realtime Transport Control Protocol
-PPTP Point2Point Tunelling Protocol
-NetBIOS 
-L2TP Layer2 Tunelling Protocol
-Apple Talk Session and Data STream Protocols
+<li>RPC Remote Procedure Call</li>
+<li>SQL Structured Query Languague</li>
+<li>SOCKS Proxy</li>
+<li>SCP Session Control Protocol</li>
+<li>RTPC Realtime Transport Control Protocol</li>
+<li>PPTP Point2Point Tunelling Protocol</li>
+<li>NetBIOS </li>
+<li>L2TP Layer2 Tunelling Protocol</li>
+<li>Apple Talk Session and Data STream Protocols</li>
 
 
 #### 5.1 CO JE SESSION. Application Programm Interface
@@ -353,7 +353,12 @@ Preferovaný štandard pre pripájanie sa k webovým stránkam a API zabezpečen
 4. ODTERAZ je obsah packetov zašifrovaný SSL \ TLS(TRANSPORT LAYER SECURITY)
 
 >[!warning]
->VIZUÁLNA KONTROLA V BROWSERI = NAĽAVO OD ADRESY SVIETI ZAMKNUTÁ VISIACA ZÁMKA.
+>VIZUÁLNA KONTROLA V BROWSERI = 
+><li>NAĽAVO OD ADRESY SVIETI ZAMKNUTÁ VISIACA ZÁMKA.</li>
+><li>SKONTROLUJ PLATNOST CERTIFIKATU</li>
+><li>!!! POZOR !!! OKREM PLATNOSTI SKONTROLUJ CI CERTIFIKAT BOL VYDANY NA CIELOVU DOMENU   go.ogle.com NIE JE google.com !!!
+
+[! info]  MITM - MAN IN THE MIDDLE - Utok hackerov kde podstrcia obeti svoj certifikat a kluc cim sa dostanu k nezasifrovanemu obsahu sifrovaneho spojenia. Obet ani cielovy SERVER povazuju komunikaciu za zabezpecenu. Jedina vec co nesedi je, ze CERTIFIKAT je vydany na inu domenu. 
 
 
 ##### 7.6.0 KOMUNIKÁCIA POMOCOU HTTP REQUESTOV
