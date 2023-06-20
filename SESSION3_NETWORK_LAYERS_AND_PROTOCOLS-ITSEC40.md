@@ -1,5 +1,5 @@
 
-VZNIK A TOPOGRAFIA SIETE
+# A VZNIK A TOPOGRAFIA SIETE
 
 MODEM - Modulator-Demodulator BBS Bulletin Board System (TELEFÓNNA SIEŤ)
 WAN - WIDE AREA NETWORK. {SAGE-RADARY US AIR FORCE, ARPANET IP adresy}
@@ -7,6 +7,8 @@ LAN - Local Area Network (Novell, Token Ring, Ethernet, MESH)
 
 HVIEZDA
 
+ ![ETHERNET TOPOLOGY ](LAN.png)
+ 
 TOOLBOX:
 
 ### 1. FYZICKÁ VRSTVA
@@ -356,9 +358,13 @@ Preferovaný štandard pre pripájanie sa k webovým stránkam a API zabezpečen
 >VIZUÁLNA KONTROLA V BROWSERI = 
 ><li>NAĽAVO OD ADRESY SVIETI ZAMKNUTÁ VISIACA ZÁMKA.</li>
 ><li>SKONTROLUJ PLATNOST CERTIFIKATU</li>
-><li>!!! POZOR !!! OKREM PLATNOSTI SKONTROLUJ CI CERTIFIKAT BOL VYDANY NA CIELOVU DOMENU   go.ogle.com NIE JE google.com !!!
+><li>!!! POZOR !!! OKREM PLATNOSTI SKONTROLUJ CI CERTIFIKAT BOL VYDANY NA CIELOVU DOMENU   go.ogle.com NIE JE google.com !!!</li>
 
-[! info]  MITM - MAN IN THE MIDDLE - Utok hackerov kde podstrcia obeti svoj certifikat a kluc cim sa dostanu k nezasifrovanemu obsahu sifrovaneho spojenia. Obet ani cielovy SERVER povazuju komunikaciu za zabezpecenu. Jedina vec co nesedi je, ze CERTIFIKAT je vydany na inu domenu. 
+## 7.6.1
+MITM - MAN IN THE MIDDLE - Utok hackerov kde podstrcia obeti svoj certifikat a kluc cim sa dostanu k nezasifrovanemu obsahu sifrovaneho spojenia. Obet ani cielovy SERVER povazuju komunikaciu za zabezpecenu. Jedina vec co nesedi je, ze CERTIFIKAT je vydany na inu domenu. 
+
+
+ ![MAN IN THE MIDDLE ATTACK ](MITM.png)
 
 
 ##### 7.6.0 KOMUNIKÁCIA POMOCOU HTTP REQUESTOV
@@ -443,3 +449,5 @@ Intranet, databazove servery, pocitace obsahujuce citlive data.
 
 8.2 DMZ - demilitarizovana zona - miesto kde su umiestnene servery volne pristupne z internetu
 
+
+ ![ETHERNET TOPOLOGY ](LANwDMZ.png)

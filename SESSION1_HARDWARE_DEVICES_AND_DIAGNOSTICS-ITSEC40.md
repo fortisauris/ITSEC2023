@@ -1,5 +1,5 @@
 
-PREDSTAVENIE: 
+## PREDSTAVENIE: 
 
 ### Principy kurzu:
 

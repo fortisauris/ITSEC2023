@@ -35,6 +35,7 @@ MULTI LAYER SWITCH a Layer 3 Switche
 Su manazovatelne switche s webovym rozhranim a ssh, ktore mozno nakonfigurovat na zrkadlenie portov, pokrocile smerovanie a pod. Su ovela drahsie a vykonnejsie ako klasicke switche.
 
 
+
 2.3 CORE LAYER
 
 SUPER SWITCHE Tbps
@@ -114,6 +115,9 @@ RAID radič pre viacero supervýkonných diskov
 HOTSWAP vyberanie diskov za chodu servera
 Redundantné napájanie viacero zdrojov
 IPMI, iDRAC, ILO systém na diaľkový manažment a monitorovanie prevádzky.
+
+
+ ![ETHERNET TOPOLOGY ](SERVER.jpg)
 
 >[! warning] 
 >!!!POZOR FYZICKA BEZPECNOST, server treba fyzicky skontrolovat a poznat jeho presny obsah, zapecatit skrinku proti neopravnenemu vniknutiu !!!
