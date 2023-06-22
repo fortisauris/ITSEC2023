@@ -108,6 +108,8 @@ chmod ugo+rwx SUBOR
 ```
 
 GROUPS limituje Device, pristupy do DB 
+
+restricted shell
  
 #### C.2. SEGMENTACIA SIETE --- DMZ a ZONY BEZPECNOSTI
 {prostredníctvom riadenia bezpečného prístupu medzi vonkajšími a vnútornými sieťami
@@ -141,7 +143,7 @@ umiestnené vo vyhradených segmentoch siete počítačovej siete,}
 Hlavne webservery, api, servery, ktore maju poskytovat informacie na internet a maju byt viditelne pre okolite prostredie ci uz statickou IP alebo Domenou
 
 #### C.8. AKTUALIZOVANYM ZOZNAMOM VSTUPOV A VYSTUPOV BODOV DO A ZO SIETE
-DOKUMENTACIA
+DOKUMENTACIA  - PRAVIDELNE KONTROLOVAT
 
 #### C.9. MONITOROVANIE POKUSOV O VNIKNUTIE DO SIETE  - LOGOVANIE A ANALYZOVANIE
 Okrem IDS je dolezite mat k dispozicii aj dalsie udaje, ktore mozu smerovat k odhaleniu a zachyteniu zacinajuceho alebo prebiehajuceho utoku
