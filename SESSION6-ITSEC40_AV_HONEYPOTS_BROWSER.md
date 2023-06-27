@@ -148,6 +148,8 @@ Získal kontrolu nad zaraideniami ako WEBKAMERY, MIKROFÓNY, uchováva HESLÁ, K
 
 Beef je exploitačný framework, ktorý sa tvári ako Web Server. Základom jeho fungovania je poskytovania falošnej stránky na ktorej beží skript hook.js
 
+ ![BEEF Framework ](BEEF.png)
+
 >[!info] 
 >HACKER:  Pomocou hook.js vieme zahákovať browser podobne ako je to vo filmoch o pirátoch. Akonáhle je BROWSER zaháknutý môžeme ho pomocou príkazov ovládať a zbierať cenné informácie o užívateľovi.
 > 
@@ -274,7 +276,7 @@ cd /mnt/c/
 
 ### F.1 IT SEC ONLINE VZDELAVANIE
 
-V rámci toho kurzu som Vám ukázal množstvo vecí, ktoré by ste mali teoreticky aj prakticky ovládať ak sa chcete venovať IT SEC. Problém je, že aj keď sme si nejaké veci ukazovali na mojej cvičnej sieti v tzv. HACKLABE či už na virtuálnych zariadeniach, alebo na skutočných, praktické schopnosti získate iba sami. Aby sme Vám túto cestu uľahčili vytvorili sme pre Vás sieť do ktorej sa budete pripájať a skúšať si rôzne ITSEC a hackerské nástroje cez Linux Shell.
+V rámci toho kurzu som Vám ukázal množstvo vecí, ktoré by ste mali teoreticky aj prakticky ovládať ak sa chcete venovať IT SEC. Problém je, že aj keď sme si nejaké veci ukazovali na mojej cvičnej sieti v tzv. HACKLABE či už na virtuálnych zariadeniach, alebo na skutočných, **praktické schopnosti získate iba sami**. Aby sme Vám túto cestu uľahčili vytvorili sme pre Vás sieť do ktorej sa budete pripájať a skúšať si rôzne ITSEC a hackerské nástroje cez Linux Shell.
 
 Vnútorná sieť je oddelená od internetu a preto sa na ňu dá napojiť pomocou BRIDGU z internetu prostredníctvom SSH pripojenia.
 
