@@ -1,5 +1,7 @@
 #DiffieHellman.py
 
+# ASYMETRICKE SIFROVANIE
+
 # 2 privatne a 2 verejne
 
 # ALICA

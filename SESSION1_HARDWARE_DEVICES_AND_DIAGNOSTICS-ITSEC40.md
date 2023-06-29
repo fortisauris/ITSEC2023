@@ -23,6 +23,7 @@
 
 
 # 1. Digitálne technológie  na ktorých stojí PC:
+#hardware
 
 ### 1.0.1 DIGITALNE DATA
 
@@ -32,6 +33,7 @@
 
 
 ### 1.0.2 NÁRAST KOMPONENTOV V CPU
+#hardware #cpu
 
 1978 Intel 8086 mal 29000 trazistorov IBM PC
 
@@ -86,7 +88,7 @@ C:\Get-ComputerInfo
 ```
 
 # 1.2 JADRÁ,  VLÁKNA A PROCESY
-
+#cpu
 
 #### 1.2.1 PROGRAMY NA PREZERANIE PROCESOV
 Linux: 
@@ -135,6 +137,8 @@ Na niektorých Linux serveroch ešte beží Legacy príkaz at, ktorý umožňuje
 
 
 ### 1.2 RAM Random Access Memory
+
+#memory
 >[!info]
 > PRVE POCITACE NEMALI PAMAT - pouzivali dierovaciu pasku alebo štítky
 
@@ -163,6 +167,7 @@ SYSTEM CONFIGURATION > Boot > Advanced Options
 
 
 # 1.3 HDD SDD UKLADANIE DAT
+#storage
 
 ### 1.3.1 HDD DISKY - platne magneticke az 10000 rpm 
 
@@ -171,7 +176,7 @@ SYSTEM CONFIGURATION > Boot > Advanced Options
 > Nachylne na otrasy a EMP
 
 ### 1.3.2 SSD, Flash a eMMc DISKY - chip
-
+#stotage
 > [!warning]
 > !!! POZOR !!!
 > EMP a obmedzena zivotnost
@@ -208,7 +213,7 @@ RAID radiče serverov umožňujú výmenu poškodených diskov za chodu úložis
 
 
 #### 1.3.4 SECURE BOOT
-
+#endpoint
 Nastavenie ze pocitac nastartuje iba z certifikovaneho bootovacie media ako WBM
 Windows Boot Manager
 
@@ -266,7 +271,7 @@ tree ADRESAR
 ```
 
 ## 1.4 Zbernice a Specialne Zariadenia pocitaca
-
+#hardware
 
 #### 1.4.1 PCi-Express a stara PCI
 
@@ -312,6 +317,7 @@ Get-DiagnosticData
 
 
 ## 1.6 Teplota Procesora DIagnostika
+#cpu
 ``` powershell
 wmic /namespace:\\root\wmi PATH MSAcpi_ThermalZoneTemperature get CurrentTemperature
 
