@@ -137,6 +137,8 @@ docker cp '.\grr_3.4.6.7_amd64.deb' ID_CONTAINER:/home/user/
 
 
 
+
+
 ### A.2.5 DALSIE UZITOCNE PRIKAZY PRE WINDOWS
 
 ``` Powershell
@@ -147,8 +149,18 @@ wmic product list
 sigverif
 
 ```
+### A.2.6 WAZUH
 
+SIEM and XDR riesenie na Endpointy aj na server
 
+### A.2.7 BITSCOUT
+https://github.com/vitaly-kamluk/bitscout
+
+### A.2.8 Fast Incident Response
+https://github.com/certsocietegenerale/FIR
+
+### A.2.9 Mozzila Mig
+https://github.com/mozilla/mig
 
 ## A.4  DERATIZACIA
 UKAZKA - MALWAREBYTES A SPYBOT Search and Destroy
